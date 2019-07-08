@@ -28,8 +28,6 @@ class HomeViewController: UIViewController {
         NotificationCenter.default.post(name: .myNotifiCation, object: nil, userInfo: nil)
     }
     
-    @IBAction func onClickedButton(_ sender: Any) {
-        print("Clicked")
-    }
+
     
 }

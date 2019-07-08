@@ -100,6 +100,7 @@
                             <constraint firstItem="ZJh-nl-og9" firstAttribute="centerY" secondItem="byS-E8-Z2S" secondAttribute="centerY" id="w1P-0j-BRX"/>
                             <constraint firstItem="ZJh-nl-og9" firstAttribute="leading" secondItem="byS-E8-Z2S" secondAttribute="leading" constant="20" id="xea-F4-h2u"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="0Sh-3k-DDk"/>
                     </view>
                     <connections>
                         <outlet property="textName" destination="JQK-yH-1vU" id="R70-8G-6PH"/>
@@ -117,20 +118,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MrR-VM-lAT">
-                                <rect key="frame" x="107" y="348" width="200" height="200"/>
-                                <color key="backgroundColor" red="0.21176470589999999" green="0.47058823529999999" blue="0.52156862749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="57g-vB-5yW"/>
-                                    <constraint firstAttribute="width" constant="200" id="Ey2-El-rzh"/>
-                                </constraints>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="onClickedButton:" destination="w8I-3p-ZCA" eventType="touchUpInside" id="Cem-n0-Qjp"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lci-qM-VaT">
                                 <rect key="frame" x="20" y="298" width="374" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.77647058820000003" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -144,12 +131,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="MrR-VM-lAT" firstAttribute="centerX" secondItem="omj-7H-cHk" secondAttribute="centerX" id="3rD-S7-fZc"/>
+                            <constraint firstItem="Lci-qM-VaT" firstAttribute="top" secondItem="08c-lV-ibt" secondAttribute="top" constant="210" id="4i6-MI-tV3"/>
                             <constraint firstItem="Lci-qM-VaT" firstAttribute="leading" secondItem="omj-7H-cHk" secondAttribute="leading" constant="20" id="Fev-2I-SVL"/>
-                            <constraint firstItem="MrR-VM-lAT" firstAttribute="centerY" secondItem="omj-7H-cHk" secondAttribute="centerY" id="PTE-Nn-Cy9"/>
                             <constraint firstItem="Lci-qM-VaT" firstAttribute="centerX" secondItem="omj-7H-cHk" secondAttribute="centerX" id="aJv-my-BT6"/>
-                            <constraint firstItem="MrR-VM-lAT" firstAttribute="top" secondItem="Lci-qM-VaT" secondAttribute="bottom" constant="20" id="rXi-rV-F7t"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="08c-lV-ibt"/>
                     </view>
                     <navigationItem key="navigationItem" id="WKg-1E-aKG">
                         <barButtonItem key="leftBarButtonItem" title="MENU" id="nTR-pz-1Mi">
