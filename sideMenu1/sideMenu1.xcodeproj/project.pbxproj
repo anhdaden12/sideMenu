@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4225C0D22F022ED00B65247 /* HomeStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4225C0C22F022ED00B65247 /* HomeStoryBoard.storyboard */; };
 		F426F68C22CDF21A0010030F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426F68B22CDF21A0010030F /* AppDelegate.swift */; };
 		F426F68E22CDF21A0010030F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426F68D22CDF21A0010030F /* ViewController.swift */; };
 		F426F69122CDF21A0010030F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F426F68F22CDF21A0010030F /* Main.storyboard */; };
@@ -14,9 +15,11 @@
 		F426F69622CDF21B0010030F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F426F69422CDF21B0010030F /* LaunchScreen.storyboard */; };
 		F426F69E22CDFBE60010030F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426F69D22CDFBE60010030F /* HomeViewController.swift */; };
 		F426F6A022CDFED80010030F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426F69F22CDFED80010030F /* MenuViewController.swift */; };
+		F48ED20522EFEFCC0088C78A /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48ED20422EFEFCC0088C78A /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F4225C0C22F022ED00B65247 /* HomeStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeStoryBoard.storyboard; sourceTree = "<group>"; };
 		F426F68822CDF21A0010030F /* sideMenu1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sideMenu1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F426F68B22CDF21A0010030F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F426F68D22CDF21A0010030F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		F426F69722CDF21B0010030F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F426F69D22CDFBE60010030F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F426F69F22CDFED80010030F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		F48ED20422EFEFCC0088C78A /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +65,10 @@
 				F426F68B22CDF21A0010030F /* AppDelegate.swift */,
 				F426F68D22CDF21A0010030F /* ViewController.swift */,
 				F426F68F22CDF21A0010030F /* Main.storyboard */,
+				F4225C0C22F022ED00B65247 /* HomeStoryBoard.storyboard */,
 				F426F69D22CDFBE60010030F /* HomeViewController.swift */,
 				F426F69F22CDFED80010030F /* MenuViewController.swift */,
+				F48ED20422EFEFCC0088C78A /* CustomTableViewCell.swift */,
 				F426F69222CDF21B0010030F /* Assets.xcassets */,
 				F426F69422CDF21B0010030F /* LaunchScreen.storyboard */,
 				F426F69722CDF21B0010030F /* Info.plist */,
@@ -130,6 +136,7 @@
 			files = (
 				F426F69622CDF21B0010030F /* LaunchScreen.storyboard in Resources */,
 				F426F69322CDF21B0010030F /* Assets.xcassets in Resources */,
+				F4225C0D22F022ED00B65247 /* HomeStoryBoard.storyboard in Resources */,
 				F426F69122CDF21A0010030F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F426F68E22CDF21A0010030F /* ViewController.swift in Sources */,
+				F48ED20522EFEFCC0088C78A /* CustomTableViewCell.swift in Sources */,
 				F426F68C22CDF21A0010030F /* AppDelegate.swift in Sources */,
 				F426F69E22CDFBE60010030F /* HomeViewController.swift in Sources */,
 				F426F6A022CDFED80010030F /* MenuViewController.swift in Sources */,

@@ -12,23 +12,27 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var sideMenu: UIView!{
         didSet{
-            sideMenu.dropShadow()
+                 sideMenu.dropShadow()
         }
     }
     
-    @IBOutlet weak var leadingSideMenu: NSLayoutConstraint!
+    @IBOutlet weak var leadingSideMenu: NSLayoutConstraint! {
+        didSet{
+           // leadingSideMenu.constant = -sideMenu.bounds.width
+        }
+    }
     @IBOutlet weak var coverButton: UIButton!
     
     private var isSideMenuOpen = false {
         didSet{
             if isSideMenuOpen {
-                sideMenu.layer.masksToBounds = true
+               sideMenu.layer.masksToBounds = true
                 leadingSideMenu.constant = -sideMenu.bounds.width
                 coverButton.alpha = 0
             } else {
                 
                 leadingSideMenu.constant = 0
-                sideMenu.layer.masksToBounds = false
+                 sideMenu.layer.masksToBounds = false
                 coverButton.alpha = 0.3
             }
             
@@ -37,8 +41,10 @@ class ViewController: UIViewController {
             }
         }
     }
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        isSideMenuOpen = true
         getNotification()
         
     }
